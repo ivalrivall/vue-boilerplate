@@ -1,9 +1,11 @@
 import Vue from "vue";
-import App from "./App.vue";
+import "./plugins";
 import router from "./router";
 import store from "./store";
-import "./registerServiceWorker";
 
+import App from "./App.vue";
+
+import "./registerServiceWorker";
 Vue.config.productionTip = false;
 
 new Vue({
